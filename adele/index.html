@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript DOM</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id ="wrapper">
+        <header>
+            <div id = "page-banner">
+                <h2>Ambato Grocery</h2>
+                <h1>Grocery Checklist</h1>
+            </div>
+                <form>
+                    <div id = "search-items">
+                        <input type="text" id="itemInput" placeholder="Add an item..." />
+                        <button id="addItemBtn">Add Item</button>
+                    </div>
+                </form>
+        </header>
+        <div id = "grocery-list">
+            <ul id="List">
+                <li>
+                    <span class = "name">Bear Brand</span>
+                    <span class="remove-btn">Remove</span>
+                </li>
+                <li>
+                    <span class = "name">Milo</span>
+                    <span class="remove-btn">Remove</span>
+                </li>
+                <li>
+                    <span class = "name">Fita</span>
+                    <span class="remove-btn">Remove</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
